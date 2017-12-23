@@ -16,3 +16,7 @@
 # MKL
 *MKL*
 MKL*
+
+
+# Prevent conflicts due to uncareful usage of the buildscript
+bin

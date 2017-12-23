@@ -10,5 +10,9 @@
 */
 package main
 
+import(
+_	"github.com/jpbubble/game"
+)
+
 func main(){
 }
