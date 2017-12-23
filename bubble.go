@@ -11,8 +11,10 @@
 package main
 
 import(
-_	"github.com/jpbubble/game"
+	"github.com/jpbubble/game"
 )
 
 func main(){
+	 bubblegame.EngineName = "BUBBLE"
+	 bubblegame.InitBubble()
 }
