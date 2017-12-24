@@ -12,9 +12,15 @@ package main
 
 import(
 	"github.com/jpbubble/game"
+	// jcr6 drivers
+_	"trickyunits/jcr6/jcr6zlib"
+_	"trickyunits/jcr6/jcr6lzma"
+_	"trickyunits/jcr6/jcr6flate"
+_	"trickyunits/jcr6/jcr6realdir"
 )
 
 func main(){
 	 bubblegame.EngineName = "BUBBLE"
 	 bubblegame.InitBubble()
+	 bubblegame.Crash() // always must be used after an InitBubble is called. 
 }
